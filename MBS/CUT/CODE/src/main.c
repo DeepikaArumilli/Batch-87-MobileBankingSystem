@@ -63,7 +63,7 @@ int main()
 	while(choice!=4)
 	{
 		printf("\n\t\t-------------------------MOBILE BANKING SYSTEM------------------------\n");
-		printf("\n\t\t\t\t\t1. Banker \n\t\t\t\t\t2. Login \n\t\t\t\t\t3. User Registration \n\t\t\t\t\t4. Exit\n");
+		printf("\n\t\t\t\t\t1. Banker Corner \n\t\t\t\t\t2. Login(Existing User) \n\t\t\t\t\t3. User Registration(New User) \n\t\t\t\t\t4. Exit\n");
 	printf("\n\t\t\t\t\tEnter your choice-  ");
 		scanf("%d",&choice);
 		switch(choice)
