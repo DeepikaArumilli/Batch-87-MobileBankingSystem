@@ -16,18 +16,18 @@
 #include<string.h>
 
 // Function Header Files 
-#include "login.c"
-#include "cust_manage.c"
-#include "reg_process.c"
+#include "../src/login.c"
+#include "../src/cust_manage.c"
+#include "../src/reg_process.c"
 
 
 // File handling Function
 
-#include "cust_file.c"
-#include "trans_file.c"
+#include "../src/cust_file.c"
+#include "../src/trans_file.c"
 
 // Header file 
-#include "mbs_header.h"
+#include "../Header/mbs_header.h"
 
 /*void gotoxy(int x, int y)
   {
