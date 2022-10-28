@@ -34,7 +34,7 @@ int file_list_cust()
 	FILE *p;
 	cf c1;
 	cr *new,*last;
-	if((p=fopen("customer_database","rb"))==NULL)
+	if((p=fopen("../Data/customer_database","rb"))==NULL)
 	{
 		printf("\n File is not there to read from\n");
 		return EXIT_FAILURE;
@@ -102,7 +102,7 @@ int list_file_cust()
 		printf("\n List is empty \n");
 		return EXIT_FAILURE;
 	}
-	if((p=fopen("customer_database","wb"))==NULL)
+	if((p=fopen("../Data/customer_database","wb"))==NULL)
 	{
 		printf("\n File is not there to write \n");
 		return EXIT_FAILURE;
