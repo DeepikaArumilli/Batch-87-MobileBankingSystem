@@ -18,7 +18,7 @@
 #include <string.h>
 #include <stdlib.h>
 
-#include "mbs_header.h"
+#include "../Header/mbs_header.h"
 
 /***************************************************************************************************
  * *FUNCTION NAME    : file_list_trans
@@ -35,7 +35,7 @@ int file_list_trans()
 	FILE *p;
 	trf r1;
 	tr *new;
-	if((p=fopen("transaction_database","rb"))==NULL)
+	if((p=fopen("../Data/transaction_database","rb"))==NULL)
 	{
 		printf("\n File is not there to read from\n");
 		return EXIT_FAILURE;
@@ -95,7 +95,7 @@ int list_file_trans()
 		printf("\n List is empty \n");
 		return EXIT_FAILURE;
 	}
-	if((p=fopen("transaction_database","wb"))==NULL)
+	if((p=fopen("../Data/transaction_database","wb"))==NULL)
 	{
 		printf("\n File is not there to write from\n");
 		return EXIT_FAILURE;
