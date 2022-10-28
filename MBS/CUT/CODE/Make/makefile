@@ -1,5 +1,5 @@
 mbs: main.o
-	gcc -o ../bin/mbs ../src/main.c
+	gcc -o ../Bin/mbs ../src/main.c
   
 main.o:../src/main.c
 	gcc ../src/main.c
